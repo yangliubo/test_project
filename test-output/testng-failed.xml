@@ -6,4 +6,13 @@
       <class name="git_test.Test_helloword"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="git_test.Test_helloword">
+        <methods>
+          <include name="add_string_test"/>
+        </methods>
+      </class> <!-- git_test.Test_helloword -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

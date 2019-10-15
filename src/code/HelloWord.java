@@ -8,5 +8,11 @@ public class HelloWord {
 		System.out.println("hello world");
 		
 	}
+	public String add_string(String a)
+	{
+		return a+"_test";
+		
+		
+	}
 		
 }
